@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+body{
+  margin-left: 50px;
+}
+    button {
+border: none;
+background: #de5454;
+color: #f2f2f2;
+padding: 10px;
+font-size: 28px;
+font-family: serif;
+margin: 10px 10px 10px 10px;
+position: relative;
+box-sizing: border-box;
+transition: all 500ms ease;
+}
+
+button {
+	transform-style: preserve-3d;
+}
+
+button:after {
+	top: -100%;
+	left: 0px;
+	width: 100%;
+	position: absolute;
+	background: #eb9494;
+  height: 40px;
+	content: 'Embrace chance.';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
+}
+button:hover {
+	transform-origin: center bottom;
+	transform: rotateX(-90deg) translateY(100%);
+}
+
+.b2 button:after {
+	top: -100%;
+	left: 0px;
+	width: 100%;
+	position:absolute;
+	background: #eb9494;
+  height: 40px;
+	content: 'Reduce material and production to their essence.';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
+}
+
+.b3 button:after {
+	top: -100%;
+	left: 0px;
+	width: 100%;
+	position:absolute;
+	background: #eb9494;
+  height: 40px;
+	content: 'Ad–lib and make things up.';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
+}
+
+.b4 button:after {
+	top: -100%;
+	left: 0px;
+	width: 100%;
+	position:absolute;
+	background: #eb9494;
+  height: 40px;
+	content: 'Subvert expectation.';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
+}
+    </style>
+  </head>
+
+
+  <body>
+<button>Begin with ideas.</button>
+
+<div class="b2">
+
+<button>  Believe complex ideas can produce simple things.</button>
+</div>
+
+<div class="b3">
+  <button>Eliminate superfluous elements.</button>
+</div>
+
+<div class="b4">
+  <button>Celebrate coincidence.</button>
+</div>
+
+
+
+ Subvert expectation.
+ Make something difficult look easy.
+ Be first or last.
+ Trust the process.
+ Allow concepts to determine form.
+ Sustain the integrity of an idea.
+ Propose honesty as a solution.
+  </body>
+</html>

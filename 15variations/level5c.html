@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+    *{
+      box-sizing: border-box;
+    }
+
+    body{
+      padding:10px;
+    }
+
+    a{
+      color: #f06d06;
+      text-decoration: none;
+    }
+
+span{
+  font-size: 50px;
+  color: white;
+}
+.box{
+  padding: 2em;
+  border: 5px solid #f3bfbf;
+  display: block;
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  color: black;
+  background: linear-gradient(
+    #de5454, #de5454 50%, white 50%, white
+    );
+    background-size: 100% 200%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+    animation: border 1.2s infinite alternate;
+}
+
+.box h2{
+  font-weight:600;
+}
+.box:hover {
+  background-position: 100% 100%;
+  animation: up-bump 0.4s ease;
+}
+
+.box:hover h2{
+  color: #ab2121;
+}
+
+.box:hover h2 span{
+  color: #ab2121;
+  font-size: 50px;
+}
+
+@keyframes border {
+  from {border-width: thick;}
+  to {border-width: thin;}
+}
+
+@keyframes up-bump{
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+
+@keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}
+
+    </style>
+  </head>
+  <body>
+
+<a href="#" class="box">
+<h2><span>MINI-MANIFESTO <br></span>Daniel Eatock</h2>
+</a>
+
+<a href="#" class="box">
+<h2>Begin with ideas.</h2>
+</a>
+
+<a href="#" class="box">
+<h2>Embrace chance.</h2>
+</a>
+
+<a href="#" class="box">
+<h2>Celebrate coincidence.</h2>
+</a>
+
+<a href="#" class="box">
+<h2>Ad–lib and make things up.</h2>
+</a>
+
+<a href="#" class="box">
+<h2>Eliminate superfluous elements.</h2>
+</a>
+
+<a href="#" class="box">
+<h2> Subvert expectation.</h2>
+</a>
+
+<a href="#" class="box">
+<h2> Make something difficult look easy.</h2>
+</a>
+
+<a href="#" class="box">
+<h2> Be first or last.</h2>
+</a>
+
+<a href="#" class="box">
+<h2> Believe complex ideas can produce simple things.</h2>
+</a>
+
+<a href="#" class="box">
+<h2> Trust the process.</h2>
+</a>
+
+<a href="#" class="box">
+<h2> Allow concepts to determine form.</h2>
+</a>
+
+<a href="#" class="box">
+<h2>Reduce material and production to their essence.</h2>
+</a>
+
+<a href="#" class="box">
+<h2> Sustain the integrity of an idea.</h2>
+</a>
+
+<a href="#" class="box">
+<h2>Propose honesty as a solution.</h2>
+</a>
+
+  </body>
+</html>

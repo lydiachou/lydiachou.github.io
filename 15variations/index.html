@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+<style media="screen">
+
+
+body{
+  background-color: #c1f1ff;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+button {
+border: none;
+background: #c1f1ff;
+padding: 5px;
+font-size: 28px;
+font-family: serif;
+font-weight: bold;
+text-transform: uppercase;
+position: relative;
+box-sizing: border-box;
+transition: all 500ms ease;
+}
+
+button {
+transform-style: preserve-3d;
+}
+
+button:after {
+	top: -100%;
+	left: 0px;
+  width: 100%;
+	position: absolute;
+	background: #c1f1ff;
+  height: 40px;
+	content: '';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
+}
+button:hover {
+	transform-origin: center bottom;
+	transform: rotateX(-90deg) translateY(100%);
+}
+
+.club{
+width: 150px;
+height: 160px;
+}
+
+.diamond{
+  width: 150px;
+  height: 150px;
+}
+
+.heart{
+  width: 150px;
+  height: 150px;
+}
+
+.spade{
+  width: 150px;
+  height: 150px;
+}
+
+.crown{
+  width: 150px;
+  height: 170px;
+}
+
+.dia button{
+  top: 22%;
+  left: 20%;
+  margin-top: -30px;
+}
+
+.clu button{
+  left:10%;
+  top: 40%;
+}
+
+.hea button{
+  top: 0px;
+  left: 75%;
+  margin-top: -230px;
+}
+
+.spa button{
+  top: 20%;
+  left:65%;
+  margin-top: -130px;
+}
+
+.cro button{
+  top: 10%;
+  left: 43%;
+  margin-top: -100px;
+}
+
+.clu button::after{
+content: 'level 1';
+}
+
+.hea button::after{
+content: 'level 2';
+}
+
+.dia button::after{
+content: 'level 3';
+}
+
+.spa button::after{
+content: 'level 4';
+}
+
+.cro button::after{
+content: 'level 5';
+}
+
+
+.container {
+position: relative;
+width:auto;
+height:100px;
+top: -565px;
+background-color: #c1f1ff;
+font-size: 28px;
+text-align: center;
+
+
+}
+
+
+
+.overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 100%;
+background-color: #75A5B2;
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+
+.container:hover .overlay {
+width: 0;
+left: 100%;
+right: 0;
+}
+
+.name{
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  left: 45%;
+}
+.text {
+white-space: nowrap;
+color: black;
+font-size: 28px;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+
+
+.down {
+position: relative;
+width:auto;
+height:100px;
+bottom: 70px;
+background-color: #c1f1ff;
+font-size: 28px;
+text-align: center;
+}
+
+.downover {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 100%;
+background-color: #75A5B2;
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+
+.down:hover .downover {
+width: 0;
+left: 100%;
+right: 0;
+}
+
+.txt {
+white-space: nowrap;
+color: black;
+font-size: 28px;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+</style>
+
+  </head>
+  <body>
+<div class="box"></div>
+
+<div class="clu">
+<button><img class="club" src="assets/images/club-01.png" alt=""></button></div> <div class="hea">
+<button><img class="heart" src="assets/images/heart-01.png" alt=""></button></div><div class="cro">
+  <button><img class="crown" src="assets/images/crown-01.png" alt=""></button></div>
+
+
+<div class="dia">
+<button><img class="diamond" src="assets/images/diamond-01.png" alt=""></button></div><div class="spa">
+<button><img class="spade" src="assets/images/spade-01.png" alt=""></button></div>
+
+<div class="container"><div class="name">
+
+Daniel Eatock</div>
+  <div class="overlay">
+    <div class="text">MINI-MANIFESTO </div>
+  </div>
+</div>
+
+
+<div class="down">
+  <div class="downover">
+    <div class="txt">WELCOME </div>
+  </div>
+</div>
+
+<a href="club"></a> <div id="15variations">
+
+</div>
+
+
+
+  </body>
+</html>
