@@ -10,7 +10,7 @@
 body{
   background-color: #c1f1ff;
   margin-left: 20px;
-  margin-top: 100px;
+  margin-top: 65px;
 }
 
 button {
@@ -31,7 +31,7 @@ transform-style: preserve-3d;
 }
 
 button:after {
-	top: -100%;
+	top: -10%;
 	left: 0px;
   width: 100%;
 	position: absolute;
@@ -45,6 +45,7 @@ button:hover {
 	transform-origin: center bottom;
   transform-origin: top;
 	transform: rotateX(-90deg) translateY(100%);
+  transition: 1s ease;
 }
 
 .club{
@@ -80,7 +81,8 @@ height: 160px;
 
 .clu button{
   left:10%;
-  top: 40%;
+  top: 0%;
+  margin-top:10px;
 }
 
 .hea button{
@@ -126,7 +128,7 @@ content: 'level 5';
 position: relative;
 width:auto;
 height:100px;
-top: -565px;
+top: -578px;
 background-color: #c1f1ff;
 font-size: 28px;
 text-align: center;
@@ -178,7 +180,7 @@ transform: translate(-50%, -50%);
 position: relative;
 width:auto;
 height:100px;
-bottom: 70px;
+bottom: 90px;
 background-color: #c1f1ff;
 font-size: 28px;
 text-align: center;
@@ -202,6 +204,13 @@ left: 100%;
 right: 0;
 }
 
+.subhead{
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  left: 45%;
+}
+
 .txt {
 white-space: nowrap;
 color: black;
@@ -218,6 +227,7 @@ transform: translate(-50%, -50%);
 
   </head>
   <body>
+    <br><br>
 <div class="box"></div>
 
 
@@ -252,7 +262,9 @@ Daniel Eatock</div>
 </div>
 
 
-<div class="down">
+<div class="down"> <div class="subhead">
+  15 Variations
+</div>
   <div class="downover">
     <div class="txt">WELCOME </div>
   </div>
