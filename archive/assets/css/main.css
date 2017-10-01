@@ -70,7 +70,8 @@ body {
   font-size: 12px;
   font-family: helvetica, sans-serif;
   letter-spacing: -0.5px;
-  font-weight: bold;
+  z-index: 40;
+  font-weight:  500;
 }
 
 .footer{
