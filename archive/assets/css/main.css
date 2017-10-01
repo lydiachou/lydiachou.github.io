@@ -60,13 +60,25 @@ body {
   padding: 15px;
 }
 
+.top{
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  width: 200px;
+  text-align: right;
+  padding:10px;
+  font-size: 12px;
+  font-family: helvetica, sans-serif;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+}
 
 .footer{
   position: fixed;
   bottom: 0px;
-  right: 20px;
+  right: 40px;
   width: 200px;
-  padding: 20px;
+  padding: 10px;
   transform: rotate(90deg);
   transform-origin: right  ;
   font-size: 15px;
@@ -156,6 +168,15 @@ body {
   cursor:pointer;
 }
 
+.nav_top a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav_top a:hover{
+  color: #e04116;
+  cursor: pointer;
+}
 .hide{
   display:none;
 }
