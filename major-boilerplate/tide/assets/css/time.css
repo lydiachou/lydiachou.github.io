@@ -27,7 +27,7 @@ body.am.h2 .water,body.pm.h2 .water,body.am.h12.m1 .water{
   top: -95%;
 }
 
-body.h12.m1.pm .water,body.h12.m30.pm .water {
+body.h12.m1.pm .water,body.h12.m30.pm .water, body.h12.m30.am .water{
   top: -95%;
 }
 
