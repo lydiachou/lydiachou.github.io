@@ -1,0 +1,43 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+
+/* Time CSS here */
+
+
+
+body.s1 .blink, body.s15 .blink, body.s17 .blink, body.s30 .blink, body.s49 .blink, body.s55 .blink{
+  display: block;
+}
+
+
+body.s1 .blink2, body.s15 .blink2, body.s17 .blink2, body.s30 .blink2, body.s49 .blink2, body.s55 .blink2{
+display: block;
+}
+
+
+
+
+
+
+
+
+
+/* message_swap here */

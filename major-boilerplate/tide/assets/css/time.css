@@ -1,0 +1,64 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+
+*/
+
+
+/* Time CSS here */
+
+
+body.am.h1 .water,body.pm.h1 .water{
+  top: -100%;
+}
+
+body.am.h2 .water,body.pm.h2 .water,body.am.h12.m1 .water{
+  top: -95%;
+}
+
+body.h12.m1.pm .water,body.h12.m30.pm .water {
+  top: -95%;
+}
+
+body.am.h3 .water,body.am.h11.threequarterH .water,body.pm.h3 .water,body.pm.h11.m50 .water{
+  top: -87%;
+}
+body.am.h4 .water,body.am.halfH.h11 .water,body.pm.h4 .water,body.pm.h11.m30 .water{
+  top: -79%;
+}
+body.am.h5 .water,body.am.h11 .water,body.pm.h5 .water,body.pm.h11 .water{
+  top: -71%;
+}
+
+body.am.h6 .water,body.am.h10 .water,body.pm.h6 .water,body.pm.h10 .water{
+  top: -63%;
+}
+
+body.am.h7 .water, body.am.h9 .water,body.pm.h7 .water,body.pm.h9 .water{
+  top: -55%;
+}
+body.am.h8 .water,body.pm.h8 .water{
+  top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+/* message_swap here */
