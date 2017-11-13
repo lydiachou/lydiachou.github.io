@@ -15,15 +15,7 @@ font-family: gill sans;
 
 p{
   font-size: 80px;
-    font-family: gill sans;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    width: 600px;
-    text-align: center;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-  transform: translate(-50%, -350%);
+
 
 }
 
