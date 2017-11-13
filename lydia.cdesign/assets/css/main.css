@@ -7,11 +7,17 @@
 
 body {
 background-color: white;
-font-family: avantgarde;
-font-family: sans-serif;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+margin-left: 5%;
+margin-top: 3%;
 }
 
 p{
   font-size: 14px;
-  font-family: avantgarde;
+  font-family: sans-serif;
+
+}
+
+h1{
+  color:	#B22835;
 }
