@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+background-color: white;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+margin-left: 5%;
+margin-top: 3%;
+}
+
+p{
+  font-size: 14px;
+  font-family: sans-serif;
+
+}
+
+h1{
+  color:	#B22835;
+  font-size: 100px;
+}
+
+a{
+  font-size: 20px;
+}
+
+span{
+  font-size: 30px;
+}
